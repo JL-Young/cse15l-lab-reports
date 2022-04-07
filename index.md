@@ -5,8 +5,8 @@ _Leaning Tower of ----_
 __Bold and Adventurous in or thinking, Waren__
 # Large Title
 ## The ~~Larger~~ Title
-[Click me to go nowhere](https://github.com/JL-Young/cse15l-lab-reports/index.html)
-![What is this supposed to be?](https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg)
+[Click this to stay here](https://github.com/JL-Young/cse15l-lab-reports/index.html)
+![Image](https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg)
 >They said so
 * Uno
 * Zwei
