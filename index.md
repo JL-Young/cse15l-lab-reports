@@ -17,8 +17,6 @@ __Bold and Adventurous in or thinking, Waren__
 3. sea
 4. ----------- The ~~Symmetric~~ Line ------------------
 5. `Grey or gray`
-6. ```
-7. # code block
-8. print 'something'
-9. print 'some other thing'
-10. ```
+....# code block
+....print 'something'
+....print 'some other thing'
