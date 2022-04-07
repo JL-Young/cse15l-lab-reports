@@ -1,1 +1,1 @@
-https://github.com/JL-Young/cse15l-lab-reports/anotherFile.html
+https://jl-young.github.io/cse15l-lab-reports/anotherFile.html
