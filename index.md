@@ -1,11 +1,12 @@
-Mark~~Down~~Up Testing
+MarkDown Testing
 
-_Leaning Tower of pisa_
+_Leaning Tower of Pisa_
 
 __Bold and Adventurous in or thinking, Waren__
 
 # Large Title
 ## The ~~Larger~~ Title
+
 
 [Click this to stay here](https://jl-young.github.io/cse15l-lab-reports/index.html)
 
