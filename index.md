@@ -6,6 +6,7 @@ __Bold and Adventurous in or thinking, Waren__
 # Large Title
 ## The ~~Larger~~ Title
 [Click this to stay here](https://github.com/JL-Young/cse15l-lab-reports/index.html)
+
 ![Image](http://cse.ucsd.edu/sites/cse/files/cse/CSELogo_text_color.gif)
 >They said so
 * Uno
