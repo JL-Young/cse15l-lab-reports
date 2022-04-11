@@ -113,7 +113,7 @@ The first command compiled the java file. The second ran it. And the third displ
 [CSE 15L Lecture Slides week 1](https://docs.google.com/presentation/d/1M1usJWoXlajH29ONzpQ7L2BxeHMdL3C7sMUSBtogpOw/edit#slide=id.g9aaf8b0d81_0_25)
 (Spring 2022 with Professor Gerald Soosai Raj)
 
-Lab Group Google Docs with TA Jessica Lam (need permission to access):
+Lab Group Google Docs with TA Jessica Lam (requires permission to access):
 
 [Lab Week 1](https://docs.google.com/document/d/1bWz30m_V0ENEkdCKICzX2L37mdhOCcbEqrSbeqsJ2QA/edit#heading=h.s8u88f6kqofr) (2022.03.31);
 [Lab Week 2](https://docs.google.com/document/d/1EMxWD-WkNZeto2HrgJhavFGu7xCwQafZ3rzX2057TDY/edit#) (2022.04.07)
