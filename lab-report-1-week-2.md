@@ -62,17 +62,32 @@ Additonal instructions on connecting to a remote host available on the [VS Code 
 ---
 # Trying Some Commands
 
+There are many commands available, including `cd`, `ls`, `pwd`, `mkdir`, and `cp` among others. The example in the screenshot is from lab 1 and shows the command -ls, which lists all the files in a directory. The first four attempts failed because I was trying to access directories that do not exist. The fifth and last attempt failed because I was trying to access a directory that belongs to someone else. By default, we do not have access to the files of others.
+
+![trying-some-commands](trying-some-commands.png)
 
 
 ---
 # Moving Files with SCP
 
+The following image shows the split-screen funstion in VScode. On the left is the server whereas the right is the client. In the client, the command scp made a copy of the file _WhereAmI.java_ from the client to the server. Following after, on the left I input `cd WhereAmI.java`, which ran the file locally on the server to prove it is indeed saved there.
+
+![moving-files-with-scp](moving-files-with-scp.png)
 
 
 
 ---
 # Setting an SSH Key
+
+The program, _SSH-keygen_, creates a pair of files, one private stored in the client and one public in the server. This pair of files can be usedin place of a password. Follow this example walkthrough:
+
+- Replace 'JYoung' with the username on your computer
+- Leave the passphrase empty
+
+![CS-15L_lab-wk1_keygen-terminal](CS-15L_lab-wk1_keygen-terminal.jpg)
+
 ## Extra steps for Windows devices:
+[Instructions from Microsoft](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 ![Image](CS-15L_lab-wk1_keygen-powershell(1).jpg)
 
 ![Image](CS-15L_lab-wk1_keygen-powershell(2).jpg)
@@ -83,8 +98,16 @@ Additonal instructions on connecting to a remote host available on the [VS Code 
 ---
 # Optimizing Remote Running
 
+There are many methods to reduce time needed for tasks. For example, the up and down arrows cycle through previous inputs. Additionally, one can use semicolons to run multiple commands on one line.
+
+Try `javac WhereAmI.java; java WhereAmI; ls`
+
+The first command compiled the java file. The second ran it. And the third displayed the content of the folder.
+
+![several-commands](several-commands.jpg)
+
 ---
-# Useful Links:
+# Other Resources:
 [Lab 1 Instructions Writeup](https://docs.google.com/document/d/1ZJsxrCRiXRbgBpAxhTRwIIqs2-xILh4EZEXfhyADS7I/edit) (this assignment)
 
 [CSE 15L Lecture Slides week 1](https://docs.google.com/presentation/d/1M1usJWoXlajH29ONzpQ7L2BxeHMdL3C7sMUSBtogpOw/edit#slide=id.g9aaf8b0d81_0_25)
@@ -92,5 +115,5 @@ Additonal instructions on connecting to a remote host available on the [VS Code 
 
 Lab Group Google Docs with TA Jessica Lam (need permission to access):
 
-[Lab Week 1](https://docs.google.com/document/d/1bWz30m_V0ENEkdCKICzX2L37mdhOCcbEqrSbeqsJ2QA/edit#heading=h.s8u88f6kqofr) (2022.03.31); 
+[Lab Week 1](https://docs.google.com/document/d/1bWz30m_V0ENEkdCKICzX2L37mdhOCcbEqrSbeqsJ2QA/edit#heading=h.s8u88f6kqofr) (2022.03.31);
 [Lab Week 2](https://docs.google.com/document/d/1EMxWD-WkNZeto2HrgJhavFGu7xCwQafZ3rzX2057TDY/edit#) (2022.04.07)
