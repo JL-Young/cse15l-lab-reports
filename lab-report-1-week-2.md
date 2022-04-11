@@ -1,4 +1,4 @@
-# Week 2 Lab Reprt
+# Week 2 Lab Report
 ## Guide for logging into a course-specific account on _ieng6_
 
 Note: This guide is intended for Windows computers.
