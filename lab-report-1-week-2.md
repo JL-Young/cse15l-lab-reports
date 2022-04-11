@@ -79,7 +79,7 @@ The following image shows the split-screen funstion in VScode. On the left is th
 ---
 # Setting an SSH Key
 
-The program, _SSH-keygen_, creates a pair of files, one private stored in the client and one public in the server. This pair of files can be usedin place of a password. Follow this example walkthrough:
+The program, _SSH-keygen_, creates a pair of files, one private stored in the client and one public in the server. This pair of files can be used in place of a password. Follow this example walkthrough:
 
 - Replace 'JYoung' with the username on your computer
 - Leave the passphrase empty
