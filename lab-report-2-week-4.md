@@ -4,9 +4,7 @@
 
 [Commit 1](https://github.com/JL-Young/markdown-parser/commit/f82ced60bc55f85450cab3ff2955879f63c26885)
 
-![change-1.1](lab-report-2/markdown-parser_change-1.1.jpg)
-
-![change-1.2](lab-report-2/markdown-parser_change-1.2.jpg)
+![change-1](lab-report-2/markdown-parser_change-1-code.jpg)
 
 [file (of change 1)](lab-report-2/test-issue-1.md) with failure-inducing input
 
@@ -24,9 +22,9 @@ The original program finished running only when the _currentIndex_ variable was 
 
 [Commit 2](https://github.com/JL-Young/markdown-parser/commit/ace737f584f6f02d844f39a05d7eb598b7ba7023)
 
-![change-2.1](lab-report-2/markdown-parser_change-2.jpg)
+![change-2](lab-report-2/markdown-parser_change-2-code.jpg)
 
-[file (of change 2)](lab-report-2/test-2) with failure-inducing input
+[file (of change 2)](lab-report-2/test-2.md) with failure-inducing input
 
 ### Symptom as shown in VSCode terminal:
 
@@ -40,12 +38,13 @@ As seen in the output above (symptom image), the second _"link"_ is actually an 
 ## Code Change 3
 [Commit 3]()
 
-![change-3.1]()
+![change-3](lab-report-2/markdown-parser_change-3-code.jpg)
 
-[file (of change 3)]()
+[file (of change 3)](lab-report-2/test-file-3.md)
 
 ### Symptom as shown in VSCode terminal:
 
-![change-3-symptom]()
+![change-3-symptom](lab-report-2/markdown-parser_change-3_symptom.jpg)
 
 ### Description:
+Brackets and parrentheses may not always come in pairs whereas the program was implemented assuming these symbols did. Because of this oversight, when the file contains, for example a lone open parenthesis "(", the index of the end parenthesis ")" would be -1 as it is not found. Later on, the subString method call would fail because -1 is out of bounds for it.
