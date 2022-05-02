@@ -6,7 +6,7 @@
 
 ![change-1](lab-report-2/markdown-parser_change-1-code.jpg)
 
-[file (of change 1)](lab-report-2/test-issue-1.md) with failure-inducing input
+[file (of change 1)](https://jl-young.github.io/cse15l-lab-reports/lab-report-2/test-issue-1.md) with failure-inducing input
 
 ### Symptom as shown in VSCode terminal:
 
