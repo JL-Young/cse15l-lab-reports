@@ -24,7 +24,7 @@ The original program finished running only when the _currentIndex_ variable was 
 
 ![change-2](lab-report-2/markdown-parser_change-2-code.jpg)
 
-[file (of change 2)](lab-report-2/test-2.md) with failure-inducing input
+[file (of change 2)](https://jl-young.github.io/cse15l-lab-reports/lab-report-2/test-2.md) with failure-inducing input
 
 ### Symptom as shown in VSCode terminal:
 
@@ -40,7 +40,7 @@ As seen in the output above (symptom image), the second _"link"_ is actually an 
 
 ![change-3](lab-report-2/markdown-parser_change-3-code.jpg)
 
-[file (of change 3)](lab-report-2/test-file-3.md)
+[file (of change 3)](https://jl-young.github.io/cse15l-lab-reports/lab-report-2/test-file-3.md)
 
 ### Symptom as shown in VSCode terminal:
 
