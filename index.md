@@ -1,6 +1,6 @@
 # CSE 15L (SP22)
 
-[J-Young](https://github.com/JL-Young)
+[JL-Young](https://github.com/JL-Young)
 
 Github repository: [cse15l-lab-reports](https://github.com/JL-Young/cse15l-lab-reports.git)
 
