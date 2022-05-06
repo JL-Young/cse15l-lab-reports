@@ -1,31 +1,18 @@
-MarkDown Testing
+# CSE 15L
 
-_Leaning Tower of Pisa_
+James Young (SP22)
 
-__Bold and Adventurous in or thinking, Warren__
+## Lab Reports
+[lab-report-1-week-2](https://jl-young.github.io/cse15l-lab-reports/lab-report-1-week-2.md)
 
-# Large Title
-## The ~~Larger~~ Title
+[lab-report-1-week-2](https://jl-young.github.io/cse15l-lab-reports/lab-report-2-week-4.md)
 
+[lab-report-1-week-2](https://jl-young.github.io/cse15l-lab-reports/lab-report-3-week-6.md)
 
-[Click this to stay here](https://jl-young.github.io/cse15l-lab-reports/index.html)
+---
 
-![Image](http://cse.ucsd.edu/sites/cse/files/cse/CSELogo_text_color.gif)
->They said so
+Misc:
 
-* Uno
-* Zwei
-* Three
+[markdownPractice.md](https://jl-young.github.io/cse15l-lab-reports/markdownPractice.md)
 
-1. wan
-2. to
-3. sea
-
------------ The ~~Symmetric~~ Line ------------------
-
-`Grey or Gray`
-```
-# octothorpe
-print 'something'
-print 'some other thing'
-```
+[WhereAmI.java](https://jl-young.github.io/cse15l-lab-reports/WhereAmI.java)

@@ -19,13 +19,13 @@ Note: This guide is intended for Windows computers.
 Head to the [__Visual Studio Code__](https://code.visualstudio.com/) website to download and install it. Follow the link and be sure not to mistakenly install _Microsoft Visual Studio_ (without _"Code"_ at the end of the name) instead.
 
 We want the blue one
-![Visual Studio vs Visual Studio Code](Visual-Studio-vs-Visual-Studio-Code.png)
+![Visual Studio vs Visual Studio Code](lab-report-1/Visual-Studio-vs-Visual-Studio-Code.png)
 
 The download page
-![Visual Studio Code Website](VS-Code-Website.jpg)
+![Visual Studio Code Website](lab-report-1/VS-Code-Website.jpg)
 
 It should look like something this after installation (dark theme enabled)
-![Visual Studio Code](VS-Code-Launch.png)
+![Visual Studio Code](lab-report-1/VS-Code-Launch.png)
 
 
 ---
@@ -54,7 +54,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 - Input your password and your computer (the client) should now be connected to the server
 
-![remotely connecting](remotely-connecting.png)
+![remotely connecting](lab-report-1/remotely-connecting.png)
 
 Additonal instructions on connecting to a remote host available on the [VS Code Website](https://code.visualstudio.com/docs/remote/ssh#_connect-to-a-remote-host).
 
@@ -66,7 +66,7 @@ Additonal instructions on connecting to a remote host available on the [VS Code 
 
 There are many commands available, including `cd`, `ls`, `pwd`, `mkdir`, and `cp` among others. The example in the screenshot is from lab 1 and shows the command -ls, which lists all the files in a directory. The first four attempts failed because I was trying to access directories that do not exist. The fifth and last attempt failed because I was trying to access a directory that belongs to someone else. By default, we do not have access to the files of others.
 
-![trying-some-commands](trying-some-commands.png)
+![trying-some-commands](lab-report-1/trying-some-commands.png)
 
 
 ---
@@ -74,7 +74,7 @@ There are many commands available, including `cd`, `ls`, `pwd`, `mkdir`, and `cp
 
 The following image shows the split-screen funstion in VScode. On the left is the server whereas the right is the client. In the client, the command scp made a copy of the file _WhereAmI.java_ from the client to the server. Following after, on the left I input `cd WhereAmI.java`, which ran the file locally on the server to prove it is indeed saved there.
 
-![moving-files-with-scp](moving-files-with-scp.png)
+![moving-files-with-scp](lab-report-1/moving-files-with-scp.png)
 
 
 
@@ -86,13 +86,13 @@ The program, _SSH-keygen_, creates a pair of files, one private stored in the cl
 - Replace 'JYoung' with the username on your computer
 - Leave the passphrase empty
 
-![CS-15L_lab-wk1_keygen-terminal](CS-15L_lab-wk1_keygen-terminal.jpg)
+![CS-15L_lab-wk1_keygen-terminal](lab-report-1/CS-15L_lab-wk1_keygen-terminal.jpg)
 
 ## Extra steps for Windows devices:
 [Instructions from Microsoft](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
-![Image](CS-15L_lab-wk1_keygen-powershell(1).jpg)
+![Image](lab-report-1/CS-15L_lab-wk1_keygen-powershell(1).jpg)
 
-![Image](CS-15L_lab-wk1_keygen-powershell(2).jpg)
+![Image](lab-report-1/CS-15L_lab-wk1_keygen-powershell(2).jpg)
 
 
 
@@ -106,7 +106,7 @@ Try `javac WhereAmI.java; java WhereAmI; ls`
 
 The first command compiled the java file. The second ran it. And the third displayed the content of the folder.
 
-![several-commands](several-commands.jpg)
+![several-commands](lab-report-1/several-commands.jpg)
 
 ---
 # Other Resources:
