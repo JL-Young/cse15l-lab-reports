@@ -1,8 +1,12 @@
-# CSE 15L
+# CSE 15L (SP22)
 
-James Young (SP22)
+James Young 
 
-## Lab Reports
+Github repository [cse15l-lab-reports](https://github.com/JL-Young/cse15l-lab-reports.git)
+
+---
+
+### Lab Reports
 [lab-report-1-week-2](https://jl-young.github.io/cse15l-lab-reports/lab-report-1-week-2.md)
 
 [lab-report-1-week-2](https://jl-young.github.io/cse15l-lab-reports/lab-report-2-week-4.md)
@@ -11,7 +15,7 @@ James Young (SP22)
 
 ---
 
-Misc:
+### Misc:
 
 [markdownPractice.md](https://jl-young.github.io/cse15l-lab-reports/markdownPractice.md)
 
