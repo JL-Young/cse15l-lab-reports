@@ -17,3 +17,34 @@
 
 ---
 ## Setup Github Access from ieng6
+
+-
+
+![public-key-location](lab-report-3/)
+
+-
+
+![private-key-location](lab-report-3/)
+
+-
+
+![ieng6-git-commands](lab-report-3/)
+
+-
+
+![ieng6-commit-link](lab-report-3/)
+
+---
+## Copy Whole Directories with SCP
+
+-
+
+![ieng6-copy-directory](lab-report-3/)
+
+-
+
+![ieng6-compile-run](lab-report-3/)
+
+-
+
+![ieng6-combined-commands](lab-report-3/)
