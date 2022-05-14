@@ -20,8 +20,6 @@
 
 -
 
-Testing git commit and puch from VSCode
-
 ![public-key-location](lab-report-3/)
 
 -
