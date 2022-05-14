@@ -32,11 +32,11 @@
 
 -
 
-[ieng6-git-commands](lab-report-3/)
+![ieng6-git-commands](lab-report-3/)
 
 -
 
-[ieng6-commit-link](lab-report-3/)
+![ieng6-commit-link](lab-report-3/)
 
 
 (copy SSH public key on ieng6 server:
