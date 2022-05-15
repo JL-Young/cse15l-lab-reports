@@ -5,21 +5,21 @@ Return to [index](https://jl-young.github.io/cse15l-lab-reports/)
 ---
 ## Streamlining SSH Configuration
 
-- editing .ssh/config file through VSCode
+- edit .ssh/config file through VSCode
 
 `~/.ssh/config`
 
 ![config-file](lab-report-3/SSH-streamline_config-file.jpg)
 
-- logging in to account using alias
+- log in to account using alias
 
 `ssh <user>`
 
 ![log-in](lab-report-3/SSH-streamline_log-in.jpg)
 
-- copying file to account using alias
+- copy file to account using alias
 
-`scp <filename> <user>`
+`scp <file> <user>`
 
 ![file-move](lab-report-3/SSH-streamline_file-move.jpg)
 
@@ -32,7 +32,7 @@ Return to [index](https://jl-young.github.io/cse15l-lab-reports/)
 
 ![public-key-location-github](lab-report-3/SSH-Keys_public-location-github.jpg)
 
-- public key loaction on ieng6 server
+- public key location on ieng6 server
 
 ```
 ssh <user> 
@@ -44,18 +44,19 @@ more id_rsa.pub
 
 - private key location
 
-`ssh <user> "cd .ssh; ls"`
+`ssh <user> "cd .ssh; ls"` (private key is file id_rsa)
 
 ![private-key-location](lab-report-3/SSH-Keys_private-location-ieng6.jpg)
 
 - git commands to commit and push a change to Github from ieng6 account
 
 ```
-ssh ieng6
-git clone <repository ssh link>
+ssh <user>
+git clone <repository SSH link>
 \\ make changes (e.g. mv <file>)
+\\ perform following commands within cloned repository
 git add <changed file>
-git commit -m "<comment here>"
+git commit -m "<write commit comment>"
 git push
 ```
 
@@ -66,7 +67,7 @@ git push
 ![ieng6-commit-link](lab-report-3/SSH-Keys_commit-link.jpg)
 
 ---
-## Copy Whole Directories with SCP
+## Copy Whole Directories with `scp -r`
 
 - copy markdown-parse directory to ieng6
 
@@ -77,7 +78,7 @@ git push
 
 ![ieng6-copy-directory](lab-report-3/Directory_copy-2.jpg)
 
-- log in, compile, and run markdown-parse on ieng6
+- log in, compile, and run markdown-parse tests on ieng6
 
 ```
 ssh <user>
@@ -88,7 +89,7 @@ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnit
 
 ![ieng6-compile-run](lab-report-3/Directory_compile-run.jpg)
 
-- copy, compile, and run markdown-parse on ieng6 in one line
+- copy markdown-parse, and compile and run tests on ieng6 in one line
 
 ```
 scp -r markdown-parser cs15lsp22<3-letter ID>@ieng6.ucsd.edu:.; ssh <user> "cd markdown-parser;/software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java;/software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"
