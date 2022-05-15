@@ -1,4 +1,7 @@
 # Lab Report 2 - Week 4
+
+Return to [index](https://jl-young.github.io/cse15l-lab-reports/)
+
 ---
 ## Code Change 1: 
 

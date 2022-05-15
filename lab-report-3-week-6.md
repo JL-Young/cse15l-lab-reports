@@ -1,5 +1,7 @@
 # Lab Report 3 - Week 6
 
+Return to [index](https://jl-young.github.io/cse15l-lab-reports/)
+
 ---
 ## Streamlining SSH Configuration
 
@@ -22,28 +24,21 @@
 
 ![public-key-location-github](lab-report-3/SSH-Keys_public-location-github.jpg)
 
-- public key loaction on laptop
+- public key loaction on ieng6 server
 
-![public-key-location-laptop](lab-report-3/SSH-Keys_public-location-laptop.jpg)
+![public-key-location-laptop](lab-report-3/SSH-Keys_public-location-ieng6.jpg)
 
 - private key location
 
-![private-key-location](lab-report-3/SSH-Keys_private-location.jpg)
+![private-key-location](lab-report-3/SSH-Keys_private-location-ieng6.jpg)
 
--
+- git commands to commit and push a change to Github from ieng6 account
 
-![ieng6-git-commands](lab-report-3/)
+![ieng6-git-commands](lab-report-3/SSH-Keys_commands.jpg)
 
--
+[link to commit](https://github.com/JL-Young/demo/commit/497e4d1610ac4a39aa62db6dcb93d91ad0a3a192)
 
-![ieng6-commit-link](lab-report-3/)
-
-
-(copy SSH public key on ieng6 server:
-
-[piazza_cse15l@519](https://piazza.com/class/l0lgl3r7ph370k?cid=519))
-
-` ~/.ssh/authorized_keys `
+![ieng6-commit-link](lab-report-3/SSH-Keys_commit-link.jpg)
 
 ---
 ## Copy Whole Directories with SCP

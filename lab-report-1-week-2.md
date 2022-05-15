@@ -1,4 +1,7 @@
 # Week 2 Lab Report
+
+Return to [index](https://jl-young.github.io/cse15l-lab-reports/)
+
 ## Guide for logging into a course-specific account on _ieng6_
 
 [James Young](https://github.com/JL-Young/cse15l-lab-reports.git) 2022.04.10
