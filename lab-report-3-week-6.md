@@ -5,6 +5,8 @@ Return to [index](https://jl-young.github.io/cse15l-lab-reports/)
 ---
 ## Streamlining SSH Configuration
 
+Set an alias in config file that corresponds to logging into specific servers. This allows one to type a short alias instead of the entire user@server line.
+
 - edit .ssh/config file through VSCode
 
 `~/.ssh/config`
@@ -25,6 +27,9 @@ Return to [index](https://jl-young.github.io/cse15l-lab-reports/)
 
 ---
 ## Setup Github Access from ieng6
+
+Creation of keys that link an account in a remotely hosted server to a Github account.
+Similar to with local machines, this allows one to access Github repositories (or whichever permissions granted) from the remote server.
 
 - public key location on Github
 
@@ -48,7 +53,7 @@ more id_rsa.pub
 
 ![private-key-location](lab-report-3/SSH-Keys_private-location-ieng6.jpg)
 
-- git commands to commit and push a change to Github from ieng6 account
+- git commands to commit and push a change to Github from ieng6
 
 ```
 ssh <user>
@@ -68,6 +73,11 @@ git push
 
 ---
 ## Copy Whole Directories with `scp -r`
+
+To copy an entire directory is not the same as copying a single file.
+The `scp` command allows one to copy __recursively__ to achieve this.
+Moreover, one can combine multiple commands in one line by using a semicolon.
+Additionally, commands to be performed within a remote server are enclosed by parentheses after the log in command.
 
 - copy markdown-parse directory to ieng6
 
