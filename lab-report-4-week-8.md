@@ -22,8 +22,11 @@ Reviewed: [cynthia-bao](https://github.com/cynthia-bao/markdown-parser) (Bao)
 - Expected Outputs ([Commonmark](https://spec.commonmark.org/dingus/))
 ![expected-outputs](lab-report-4/snippets-expected-outputs.jpg)
 
-- MarkdownParseTest.java: tests for snippets
+- MarkdownParseTest.java: tests for snippets (Young)
 ![MarkdownParseTest.java code](lab-report-4/MarkdownParseTest_snippet-tests.jpg)
+
+- MarkdownParseTest.java: tests for snippets (Bao)
+![MarkdownParseTest.java code](lab-report-4/MarkdownParseTest-Bao_snippet-tests.jpg)
 
 - JUnit Test Output Failures (Young)
 ![Test-failures_Young](lab-report-4/MarkdownParseTest_snippet-failures.jpg)
