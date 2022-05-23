@@ -5,23 +5,31 @@
 Return to [index](https://jl-young.github.io/cse15l-lab-reports/)
 
 ---
-[Repository markdown-parser](https://github.com/JL-Young/markdown-parser) (Young)
+## MarkdownParse Repositories
 
-[Repository reviewed in week 7](https://github.com/cynthia-bao/markdown-parser) (Bao)
+Author: [JL-Young](https://github.com/JL-Young/markdown-parser) (Young)
+
+Reviewed: [cynthia-bao](https://github.com/cynthia-bao/markdown-parser) (Bao)
 
 ---
-## Snippet Previews (VSCode)
+## Snippet Previews, Expected Outputs, and Tests
 
+- Snippet Previews (VSCode)
 ![snippet-1-preview](lab-report-4/snippet-1-preview.jpg)
 ![snippet-2-preview](lab-report-4/snippet-2-preview.jpg)
 ![snippet-3-preview](lab-report-4/snippet-3-preview.jpg)
 
-![expected-output-1]()
-![expected-output-2]()
-![expected-output-3]()
+- Expected Output ([Commonmark](https://spec.commonmark.org/dingus/))
+![expected-outputs](lab-report-4/snippets-expected-outputs.jpg)
 
-![MarkdownParseTest.java code]()
+- MarkdownParseTest.java: tests for snippets
+![MarkdownParseTest.java code](lab-report-4/MarkdownParseTest_snippet-tests.jpg)
 
-![Test failure - Young]()
+- Test failures (Young)
+![Test-failures_Young](lab-report-4/MarkdownParseTest_snippet-failures.jpg)
 
-![Test failure - Bao]()
+- Test failures (Bao)
+![Test-failures_Bao](lab-report-4/MarkdownParseTest-Bao_snippet-failures.jpg)
+
+---
+## Answers to Questions
