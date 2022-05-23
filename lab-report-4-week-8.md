@@ -1,4 +1,4 @@
-# Week 4 Lab Report
+# Lab Report 4 - Week 8
 
 [JL-Young](https://github.com/JL-Young)
 
@@ -14,25 +14,25 @@ Reviewed: [cynthia-bao](https://github.com/cynthia-bao/markdown-parser) (Bao)
 ---
 ## Snippet Previews, Expected Outputs, and Tests
 
-- Snippet Previews (VSCode)
+- Snippet Previews (VScode)
 ![snippet-1-preview](lab-report-4/snippet-1-preview.jpg)
 ![snippet-2-preview](lab-report-4/snippet-2-preview.jpg)
 ![snippet-3-preview](lab-report-4/snippet-3-preview.jpg)
 
-- Expected Output ([Commonmark](https://spec.commonmark.org/dingus/))
+- Expected Outputs ([Commonmark](https://spec.commonmark.org/dingus/))
 ![expected-outputs](lab-report-4/snippets-expected-outputs.jpg)
 
 - MarkdownParseTest.java: tests for snippets
 ![MarkdownParseTest.java code](lab-report-4/MarkdownParseTest_snippet-tests.jpg)
 
-- Test failures (Young)
+- JUnit Test Output Failures (Young)
 ![Test-failures_Young](lab-report-4/MarkdownParseTest_snippet-failures.jpg)
 
-- Test failures (Bao)
+- JUnit Test Output Failures (Bao)
 ![Test-failures_Bao](lab-report-4/MarkdownParseTest-Bao_snippet-failures.jpg)
 
 ---
-## Answers to Questions
+## Answers to Questions: Possible Code Changes to Pass Tests
 
 __Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.__
 
@@ -48,4 +48,4 @@ __Do you think there is a small (<10 lines) code change that will make your prog
 
 __If your code already works on some/all test cases, include an explanation of what were the code changes that allowed the tests to pass.__
 
-- n/a: all three tests failed
+- n/a: all three test cases for the snippets failed
