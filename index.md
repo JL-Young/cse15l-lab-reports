@@ -15,6 +15,8 @@ Github repository: [cse15l-lab-reports](https://github.com/JL-Young/cse15l-lab-r
 
 [lab-report-4-week-8](https://jl-young.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
+[lab-report-5-week-10](https://jl-young.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
+
 ---
 ### Lab Report Download
 
@@ -25,6 +27,8 @@ Github repository: [cse15l-lab-reports](https://github.com/JL-Young/cse15l-lab-r
 [lab-report-3-week-6.md download](https://jl-young.github.io/cse15l-lab-reports/lab-report-3-week-6.md)
 
 [lab-report-4-week-8.md download](https://jl-young.github.io/cse15l-lab-reports/lab-report-4-week-8.md)
+
+[lab-report-5-week-10.md download](https://jl-young.github.io/cse15l-lab-reports/lab-report-5-week-10.md)
 
 ---
 
