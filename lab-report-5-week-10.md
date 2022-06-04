@@ -6,9 +6,10 @@ Return to [index](https://jl-young.github.io/cse15l-lab-reports/)
 
 ---
 ## Explain:
+
 __How you found the tests with different results (Did you use vimdiff on the results of running a bash for loop? Did you search through manually? Did you use some other programmatic idea?)__
 
-- I used _vimdiff_ to find the tests with different results. First, I added an echo at line 3 in the _script.sh_ file to print out the test names alongside their outputs. Then, I created a second script, _script2.sh_, to run all the tests with my implementation of MarkdownParse. Then, I recorded the outputs of the two scripts to two .txt files. Lastly, I used vimdiff to display the two files with their differences highlighted.
+> I used _vimdiff_ to find the tests with different results. First, I added an echo at line 3 in the _script.sh_ file to print out the test names alongside their outputs. Then, I created a second script, _script2.sh_, to run all the tests with my implementation of MarkdownParse. Then, I recorded the outputs of the two scripts to two .txt files. Lastly, I used vimdiff to display the two files with their differences highlighted.
 
 ```
 bash script.sh > results.txt
@@ -45,12 +46,13 @@ __Provide a link to the test-file with different-results (in the provided reposi
 ---
 ### Test 41
 
-Mine is incorrect
+> My implementation is incorrect.
 
 ![](lab-report-5/output-41.jpg)
 
-
 ![](lab-report-5/expect-41.jpg)
+
+
 
 ---
 
