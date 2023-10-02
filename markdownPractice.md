@@ -2,7 +2,7 @@ MarkDown Testing
 
 _Leaning Tower of Pisa_
 
-__Bold and Adventurous in or thinking, Warren__
+__Bold and Adventurous in our thinking, Warren__
 
 # Large Title
 ## The ~~Larger~~ Title
